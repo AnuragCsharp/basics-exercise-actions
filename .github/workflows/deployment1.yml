@@ -11,9 +11,12 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+      
+      - name: Install nodejs
+        uses: actions/setup-node@v3
 
       - name: Install Dependencies
-        run: npm ci
+        run: npm ci          
 
       - name: Lint
         run: npm run lint
