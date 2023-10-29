@@ -2,8 +2,7 @@ name: TestProject
 on: workflow_dispatch
 jobs:
   MyFirst-job:
-    run-on: ubintu-latest
+    runs-on: ubintu-latest
     steps:
       - name: "Say hello"
         run: echo "Hello Everyone"
-        
