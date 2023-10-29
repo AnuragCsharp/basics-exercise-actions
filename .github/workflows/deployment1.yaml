@@ -2,7 +2,7 @@ name: TestProject
 on: workflow_dispatch
 jobs:
   MyFirst-job:
-    runs-on: ubintu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: "Say hello"
         run: echo "Hello Everyone"
