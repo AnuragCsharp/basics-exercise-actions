@@ -1,4 +1,4 @@
-name: TestProject
+name: TestProject2
 on: workflow_dispatch
 jobs:
   MyFirst-job:
